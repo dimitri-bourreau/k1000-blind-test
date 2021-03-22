@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>K1000 Blindtest</title>
+</head>
+<body>
+<style>
+    body {
+        background-color: #282525;
+        color: deepskyblue;
+        padding: 50px;
+        font-family: "Arial Rounded MT Bold";
+    }
+
+    #container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    #inputs {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30%;
+    }
+
+    #inputs * {
+        margin-bottom: 15px;
+    }
+
+    #validate-btn {
+        padding: 5px 10px;
+        margin: 0 auto;
+        background-color: deepskyblue;
+        border: none;
+        width: 40%;
+        cursor: pointer;
+        font-family: "Arial Rounded MT Bold";
+        color: whitesmoke;
+        transition: background-color 0.1s ease-in;
+    }
+
+    #validate-btn:hover {
+        background-color: cornflowerblue;
+    }
+
+    hr {
+        color: cornflowerblue;
+        width: 100%;
+        margin: 50px 0;
+    }
+
+    /* ----------------------------------- */
+
+    #list {
+        width: 55%;
+        padding: 0 30px;
+    }
+
+    #list h2 {
+        margin-bottom: 60px;
+    }
+
+    #name-list {
+        padding: 30px 20px;
+        margin: 0;
+        background-color: #1a1919;
+    }
+
+    #name-list li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+        margin-bottom: 30px;
+        list-style: none;
+    }
+
+    #name-list li img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    #name-list li p {
+        margin-left: 30px;
+    }
+</style>
+
+<div id="container">
+  <div id="inputs">
+    <h2>Nouveau participant</h2>
+    <input type="text" placeholder="https://monimage.com/sex" id="img-input">
+    <input type="text" placeholder="Camille" id="name-input">
+    <input type="button" id="validate-btn" value="Confirmer">
+
+    <hr>
+
+    <h2>Supprimer</h2>
+  </div>
+
+  <div id="list">
+    <ul id="name-list">
+      <li>
+        <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/ca56dd6a-3c4a-40f8-a0ac-e243dacfa69b-profile_image-70x70.png">
+        <p>K1000prod</p>
+      </li>
+      <li>
+        <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/ca56dd6a-3c4a-40f8-a0ac-e243dacfa69b-profile_image-70x70.png">
+        <p>K1000prod</p>
+      </li>
+      <li>
+        <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/ca56dd6a-3c4a-40f8-a0ac-e243dacfa69b-profile_image-70x70.png">
+        <p>K1000prod</p>
+      </li>
+      <li>
+        <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/ca56dd6a-3c4a-40f8-a0ac-e243dacfa69b-profile_image-70x70.png">
+        <p>K1000prod</p>
+      </li>
+      <li>
+        <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/ca56dd6a-3c4a-40f8-a0ac-e243dacfa69b-profile_image-70x70.png">
+        <p>K1000prod</p>
+      </li>
+      <li>
+        <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/ca56dd6a-3c4a-40f8-a0ac-e243dacfa69b-profile_image-70x70.png">
+        <p>K1000prod</p>
+      </li>
+      <li>
+        <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/ca56dd6a-3c4a-40f8-a0ac-e243dacfa69b-profile_image-70x70.png">
+        <p>K1000prod</p>
+      </li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>
